@@ -1,11 +1,15 @@
+---
+const baseUrl = import.meta.env.BASE_URL;
+---
+
 <!doctype html>
 <html lang="ja">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" type="image/svg+xml" href={`${baseUrl}favicon.svg`} />
+		<link rel="icon" href={`${baseUrl}favicon.ico`} />
 		<meta name="generator" content={Astro.generator} />
 		<title>以尻自治会</title>
 	</head>
